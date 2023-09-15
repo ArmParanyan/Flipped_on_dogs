@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flipped on Dogs</title>
+    <meta charset="utf-8">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap" rel="stylesheet">
+
+    <meta name="viewport"
+        content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- css files -->
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/main_section.css" />
+    <link rel="stylesheet" href="./styles/features-section.css" />
+    <link rel="stylesheet" href="./styles/todays_topic.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/menu.css" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul class="topics">
+                <div class="header-components">
+                    <li class="header-logo">
+                        <a class="header-a" href="">
+                            <img class="header-img" src="./img/dog_logo.svg" alt="Photo of a puppy">
+                        </a>
+                    </li>
+                </div>
+
+                <div class="header-components">
+                    <li class="game-div">
+                        <sapn class="hide-in-mobile"><a class="game" href="">GAME</a></sapn>
+                    </li>
+
+                    <li class="header-scrapbook">
+                        <div class="scrap-book">
+                            <a>
+                                <img class="scrap-book-pic" src="./img/Scrapbook.svg" alt="Photo of a Scrapbook">
+                            </a>
+                            <span class="hide-in-mobile">
+                                <a class="scrap-book-text" href="">
+                                    <span class="text-your">Your</span>
+                                    Scrapbook
+                                </a>
+                            </span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <img src="./img/Progress Bar.svg" alt="Photo of a progress bar">
+                            <span class="progress-persentage">
+                                55 <span class="slash-hundred">/100</span>
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="topic">
+                        <span class="hide-in-mobile">
+                            <a href="">TOPICS</a>
+                        </span>
+
+                    </li>
+                </div>
+
+                <div class="header-components">
+
+                    <div class="login-signup">
+                        <li class="log-in">
+                            <a href="">LOG IN</a>
+                        </li>
+                        <li class="sign-up">
+                            <button class="sign-up-button">SIGN UP</button>
+                        </li>
+                    </div>
+
+                    <li class="burger" id="open-when-clicking">
+                        <a class="burger-block">
+                            <span class="burger-icon"></span>
+                            <span class="burger-icon"></span>
+                            <span class="burger-icon last-line-of-burger"></span>
+                        </a>
+                    </li>
+
+                </div>
+            </ul>
+        </nav>
+
+        <section id="menu-section">
+
+            <div class="menu">
+                <div class="menu-head">
+                    <div class="menu-head-part">
+
+
+                        <div class="menu-logo">
+                            <img src="./img/menu-logo.svg" alt="dog picture">
+                        </div>
+
+                        <div class="menu-closing-part">
+
+                            <div class="close-menu">
+                                <img class="close-image" src="./img/close-menu-icon.svg" alt="">
+                            </div>
+
+                            <div class="menu-login">
+                                <button class="log-in-button">LOG IN</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-main-section">
+                    <div class="placeholder">
+                        <input class="search" type="text" placeholder="Placeholder">
+                        <div class="search-icon">
+                        </div>
+                    </div>
+
+                    <div class="menu-features">
+                        <div class="menu-game">
+                            <a href="">
+                                <p class="menu-features-links">GAME</p>
+                            </a>
+                        </div>
+                        <div class="menu-scrapbook">
+                            <a href="">
+                                <p class="menu-features-links">YOUR
+                                    SCRAPBOOK</p>
+                            </a>
+                            <div class="menu-progress-bar">
+                                <img src="./img/menu Progress Bar.svg" alt="progress bar">
+                                <p class="menu-progress-bar-persentage">? <span class="menu-slash-hundred">/ 100</span>
+                                </p>
+
+                                <a href="">
+                                    <p class="log-in-to-view">Log In to View</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="menu-topic">
+                            <a href="">
+                                <p class="menu-features-links">TOPICS</p>
+                            </a>
+                        </div>
+                        <div class="my-dog">
+                            <a href="">
+                                <p class="menu-features-links">SUBMIT MY DOG</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="links-about-us">
+                        <div class="about-us">
+                            <a href="">
+                                <p class="about-links">About Us</p>
+                            </a>
+                        </div>
+                        <div class="community-guidelines">
+                            <a href="">
+                                <p class="about-links">Community Guidelines</p>
+                            </a>
+                        </div>
+                        <div class="how-to-play">
+                            <a href="">
+                                <p class="about-links">How To Play</p>
+                            </a>
+                        </div>
+
+
+                    </div>
+                    <div class="social-media">
+                        <div class="menu-follow-us">
+                            <p>Follow us:</p>
+                        </div>
+                        <div class="social-media-icons">
+                            <a href="">
+                                <img src="./img/menu-tik-tok.svg" alt="">
+                            </a>
+
+                            <a href="">
+                                <img src="./img/menu-instagram.svg" alt="">
+                            </a>
+
+                            <a href="">
+                                <img src="./img/menu-facebook.svg" alt="">
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </header>
+
+    <section id="main-section">
+        <div class="central-div">
+            <div class="left-side-and-play-button hide-in-slide">
+                <div class="left-side">
+                    <div class="left-side-text">
+
+                        <p class="first-par show-in-mobile ">THINK YOU</p>
+                        <p class="second-par show-in-mobile">KNOW DOGS?</p>
+
+                        <p class="know hide">Get in the know.</p>
+                        <p class="fun hide">Get in on the fun.</p>
+
+                        <p class="velit">Duis aute irure dolor in
+                            reprehenderit in
+                            voluptate velit </p>
+                    </div>
+
+                    <div class="fight-play slider-img">
+                        <div class="top-part">
+                            <div class="top">
+                                <div class="pow-part">
+                                    <img class="pow1" src="./img/pow1.svg" alt="pow picture">
+                                    <img class="pow2" src="./img/pow2.svg" alt="pow picture">
+                                    <img class="pow3" src="./img/pow3.svg" alt="pow picture">
+                                </div>
+
+                                <div class="circle">
+                                    <div class="oval">
+                                        <p>3,785</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-of-top-part">
+                                <h2 class="">Will this be...</h2>
+                            </div>
+                        </div>
+
+                        <div class="image-part">
+                            <img class="img-of-two-dogs " src="./img/Fight or Play (1) 1.png" alt="picture of two dogs">
+                        </div>
+
+                        <div class="fight-or-play-part">
+                            <button class="fight-button">
+                                FIGHT
+                            </button>
+                            <p>or</p>
+                            <button class="play-button">
+                                PLAY
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="play-game">
+                    <button class="play-game-button">
+                        PLAY TODAY'S GAME
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="right-side">
+
+                <div class="title slider-img hidden">
+                    <div class="right-side-text">
+                        <p class="first-par know ">THINK YOU</p>
+                        <p class="second-par fun">KNOW DOGS?</p>
+                    </div>
+                    <img class="puppie-img " src="./img/playing-puppies-g65948abb8_640 1.png"
+                        alt="picture of puppies playing">
+
+                    <div class="poppies">
+
+                        <p>
+                            Poppies
+                        </p>
+                        <p class="third-par">
+                            Is Your Dog 100% Safe
+                            Around Kids?
+                        </p>
+
+                        <p class="essecillum show-in-mobile">Duis aute irure dolor inreprehenderit in
+                            voluptate velit essecillum</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="slide-button">
+
+            <img src="./img/slide-button-1.svg" alt="slide-button" class="slide-button-1">
+
+            <img src="./img/slide-button2.svg" alt="slide-button" class="slide-button-2">
+
+        </div>
+
+    </section>
+
+
+    <section class="features-section">
+        <div class="features">
+            <div class="features-icons">
+
+                <img src="./img/features_icon1.svg" alt="Game">
+
+                <div class="features-icons-text">
+                    <p class="first-paragraph">GAME</p>
+                    <p class="second-paragraph">Duis aute irure dolor in reprehenderit </p>
+                </div>
+            </div>
+            <div class="features-icons">
+                <img src="./img/features_icon2.svg" alt="Scrapbook">
+                <p class="first-paragraph">YOUR SCRAPBOOK</p>
+                <p class="second-paragraph">Duis aute irure dolor in reprehenderit </p>
+            </div>
+            <div class="features-icons">
+                <img src="./img/features_icon3.svg" alt="Topics">
+                <p class="first-paragraph">TOPICS</p>
+                <p class="second-paragraph">Duis aute irure dolor in reprehenderit </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="todays-topic">
+
+        <div class="todays-topic-head">
+            <h2>TODAY'S TOPICS</h2>
+            <div class="todays-topic-logo">
+                <img src="./img/todays-topic-head.svg" alt="picture of a puppie">
+            </div>
+        </div>
+
+        <div class="todays-topic-main-section">
+            <div class="main-section-main-part">
+                <div class="todays-topic-left-side">
+                    <div class="little-girl-playing-with-puppy">
+                        <img src="./img/Is Your Dog Safe with Kids (1)@2x 1.png" alt="little girl playing with puppy">
+                        <p class="poppies">Poppies</p>
+                        <p class="dog-safe-around-kids main-text">Is Your Dog 100% Safe Around Kids?</p>
+                        <p class="essecillum">Duis aute irure dolor inreprehenderit in voluptate velit essecillum.</p>
+                    </div>
+
+
+                    <div class="latest">
+                        <div class="latest-text">
+                            <p>Latest</p>
+                        </div>
+                        <div class="dog-part">
+                            <div class="puppy-zone">
+                                <div class="puppy-zone-pic dog-pic">
+                                    <img src="./img/Screenshot 2023-06-12 at 3.20 1.png" alt="dog pic">
+                                </div>
+                                <div class="puppy-zone-text">
+                                    <p class="poppies">Poppies</p>
+                                    <p class="puppy-zone-problems main-text">Puppy Zone Prevents Problems</p>
+                                    <p class="essecillum">Duis aute irure dolor inreprehenderit in voluptate velit
+                                        essecillum.</p>
+                                </div>
+                            </div>
+
+                            <div class="family-dog">
+                                <div class="family-dog-pic dog-pic">
+                                    <img src="./img/nicolas-tessari-BHh-jKrTIoU-unsplash@2x 1.png" alt="dog pic">
+                                </div>
+                                <div class="family-dog-text">
+                                    <p class="poppies poppies-desc">Family Dog</p>
+                                    <p class="poppies poppies-mobile">Poppies</p>
+                                    <p class="training-tips main-text">Family <span class="training-tips-span">Training
+                                            Tips</span>
+                                    </p>
+                                    <p class="essecillum">Duis aute irure dolor inreprehenderit in voluptate velit
+                                        essecillum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="todays-topic-right-side">
+
+                    <div class="trending">
+                        <p>Trending</p>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="pupphood">
+                        <div class="dates">
+                            <p class="puppys">Poppies</p>
+                            <p class="time">3 hours ago</p>
+                        </div>
+
+                        <p class="main-text">Why Pupphood
+                            is the Most
+                            important Time</p>
+                        <p class="essecillum">Duis aute irure dolor in reprehenderit in
+                            voluptate velit essecillum.</p>
+                    </div>
+
+                    <div class="divider"></div>
+
+
+                    <div class="dog-toys hide-in-mobile">
+                        <div class="dates">
+                            <p class="puppys">Dog Toys</p>
+                            <p class="time">Jun 14</p>
+                        </div>
+                        <p class="main-text">Shelter Life
+                            Can Be Ruff</p>
+                        <p class="essecillum">Duis aute irure dolor inreprehenderit in
+                            voluptate velit essecillum.</p>
+                    </div>
+
+                    <div class="divider hide-in-mobile"></div>
+
+                    <div class="tug-toys">
+                        <div class="dates">
+                            <p class="puppys">Poppies</p>
+                            <p class="time">3 hours ago</p>
+                        </div>
+                        <p class="main-text">Make Your Own
+                            Tug Toys</p>
+                        <p class="essecillum">Duis aute irure dolor inreprehenderit in
+                            voluptate velit essecillum.</p>
+                    </div>
+
+                    <div class="divider hide-in-mobile"></div>
+
+                    <div class="stop-barking hide-in-mobile">
+                        <div class="dates">
+                            <p class="puppys">Poppies</p>
+                            <p class="time">3 hours ago</p>
+                        </div>
+                        <p class="main-text">Stop Barking</p>
+                        <p class="essecillum">Duis aute irure dolor inreprehenderit in
+                            voluptate velit essecillum.</p>
+                    </div>
+
+                    <div class="divider hide-in-mobile"></div>
+
+                    <div class="safe-around hide-in-mobile">
+                        <div class="dates">
+                            <p class="puppys">Poppies</p>
+                            <p class="time">3 hours ago</p>
+                        </div>
+                        <p class="main-text">Is Your Dog 100% Safe
+                            Around Kids?</p>
+                        <p class="essecillum">
+                            Duis aute irure dolor inreprehenderit in
+                            voluptate velit essecillum.
+                        </p>
+                    </div>
+                    <div class="divider"></div>
+
+                </div>
+            </div>
+
+            <div class="see-all-topics">
+                <button class="see-all-topics-button">SEE ALL TOPICS</button>
+            </div>
+        </div>
+
+
+        <div class="sock-stealer-part">
+
+            <div class="slide-icons">
+                <img class="prev-icon-img" src="./img/prev-ic.svg" alt="">
+                <img class="next-icon-img" src="./img/next-ic.svg" alt="">
+
+
+            </div>
+
+
+            <div class="lola-part">
+                <div class="lola-pic">
+                    <img src="./img/lola1.png" alt="dog pic">
+                </div>
+
+                <div class="lola-text">
+
+                    <div class="lola-sock-stealer">
+                        <p class="lola">Lola</p>
+                        <p class="sock">Sock Stealer</p>
+                    </div>
+
+                    <div class="CA">
+                        <p class="pacifica">Pacifica, CA</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="lola-part lola-hide-in-mobile">
+                <div class="lola-pic">
+                    <img src="./img/lola2.png" alt="dog pic">
+
+                </div>
+
+                <div class="lola-text">
+                    <div class="lola-sock-stealer">
+                        <p class="lola">Lola</p>
+                        <p class="sock">Sock Stealer</p>
+                    </div>
+
+                    <div class="CA">
+                        <p class="pacifica">Pacifica, CA</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="lola-part lola-hide-in-mobile">
+                <div class="lola-pic">
+                    <img src="./img/lola3.png" alt="dog pic">
+
+                </div>
+
+                <div class="lola-text">
+                    <div class="lola-sock-stealer">
+                        <p class="lola">Lola</p>
+                        <p class="sock">Sock Stealer</p>
+                    </div>
+
+                    <div class="CA">
+                        <p class="pacifica">Pacifica, CA</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="lola-part lola-hide-in-mobile">
+                <div class="lola-pic">
+                    <img src="./img/lola4.png" alt="dog pic">
+
+                </div>
+
+                <div class="lola-text">
+                    <div class="lola-sock-stealer">
+                        <p class="lola">Lola</p>
+                        <p class="sock">Sock Stealer</p>
+                    </div>
+
+                    <div class="CA">
+                        <p class="pacifica">Pacifica, CA</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="show-off-your-dog">
+            <p class="show-dog">SHOW OFF YOUR DOG</p>
+            <p class="proident show-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                eu fugiat
+                nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident. </p>
+            <p class="proident show-mobile">Duis aute irure dolor inreprehenderit in
+                voluptate velit essecillum.</p>
+            <div class="submit-dog">
+                <button class="submit-dog-button">SUBMIT MY DOG</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                <a href="">
+                    <img src="./img/footer-logo.svg" alt="footer logo">
+                </a>
+            </div>
+
+
+            <div class="footer-info">
+                <div class="footer-features">
+                    <div class="footer-features-part">
+                        <div class="footer-game">
+                            <p class="footer-titles">GAME</p>
+                            <div class="game-features">
+                                <a class="links" href="">
+                                    <p class="link-text">Play Today's Game</p>
+                                </a>
+                                <a class="links" href="">
+                                    <p class="link-text">Submit My Dog</p>
+                                </a>
+                                <a class="links" href="">
+                                    <p class="link-text">Your Scrapbook</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="footer-topics">
+                            <p class="footer-titles">TOPICS</p>
+                            <div class="topic-features">
+                                <a class="links" href="">
+                                    <p class="link-text">All Topics</p>
+                                </a>
+                                <a class="links" href="">
+                                    <p class="link-text">Community Guidelines</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="footer-about">
+                            <p class="footer-titles">ABOUT</p>
+                            <div class="about-features">
+                                <a class="links" href="">
+                                    <p class="link-text">About Us</p>
+                                </a>
+                                <a class="links" href="">
+                                    <p class="link-text">Give Feedback</p>
+                                </a>
+                                <a class="links" href="">
+                                    <p class="link-text">Privacy Policy</p>
+                                </a>
+                                <a class="links" href="">
+                                    <p class="link-text">Terms & Conditions</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-registration-part">
+                        <div class="footer-registration">
+                            <div class="footer-sign-up">
+                                <div class="footer-sign-up-miss-out">
+                                    <p class="footer-titles fot-sign-up">SIGN UP</p>
+                                    <p class="link-text link-text-desc">and never miss out</p>
+                                </div>
+                                <p class="link-text link-text-desc">on saving your points and cards!</p>
+                                <p class="link-text link-text-mobile">and never miss out on storing your points
+                                    and cards!</p>
+
+                            </div>
+                            <div class="email-field">
+                                <div class="email-input">
+                                    <input class="email" type="email" placeholder="Email">
+                                </div>
+                                <div class="submit-button">
+                                    <button class="sumbit-email">SUBMIT</button>
+                                </div>
+                            </div>
+
+                            <div class="follow-us">
+                                <div class="follow-us-text">
+                                    <p>Follow us:</p>
+                                </div>
+                                <div class="follow-us-icons">
+                                    <div class="footer-icon">
+                                        <a href="">
+                                            <img src="./img/tik-tok.svg" alt="">
+                                        </a>
+                                    </div>
+
+                                    <div class="footer-icon">
+                                        <a href="">
+                                            <img src="./img/instagram.svg" alt="">
+                                        </a>
+                                    </div>
+
+                                    <div class="footer-icon">
+                                        <a href="">
+                                            <img src="./img/facebook.svg" alt="">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

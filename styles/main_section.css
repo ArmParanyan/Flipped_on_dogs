@@ -1,0 +1,416 @@
+#main-section {
+
+    background-color: #EAF7FC;
+}
+
+
+.central-div {
+    display: flex;
+
+    align-items: flex-start;
+    gap: 80px;
+    flex-shrink: 0;
+    padding: 64px 100px;
+
+
+}
+
+.left-side {
+    display: flex;
+    padding-top: 24px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+
+.left-side-text {
+    display: flex;
+    padding-top: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 24px;
+}
+
+.know {
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.fun {
+    color: #1C9DC9;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.velit {
+    color: #323232;
+    font-size: 18px;
+}
+
+.fight-play {
+    display: flex;
+    border-radius: 32px 32px 0px 0px;
+    border-top: 8px solid #1C9DC9;
+    border-right: 8px solid #1C9DC9;
+    border-left: 8px solid #1C9DC9;
+    background: #EAF7FC;
+    width: 408px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 24px;
+}
+
+
+.pow-part {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding-right: 60px;
+    max-width: 379px;
+}
+
+.pow-part img {
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* .circle {
+    display: flex;
+    align-items: center;
+
+} */
+
+.oval {
+    border: 2px solid #1C9DC9;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oval p {
+    color: #177FA3;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.text-of-top-part {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-of-top-part h2 {
+    color: #177FA3;
+    text-align: center;
+    font-size: 32px;
+
+    font-weight: 500;
+
+}
+
+.image-part {
+    max-width: 379px;
+
+}
+
+.img-of-two-dogs {
+    border: 4px solid #177FA3;
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+}
+
+.fight-or-play-part {
+    width: 360px;
+    gap: 10px;
+}
+
+.fight-button {
+    background: white;
+    border: 2px solid #1C9DC9;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px #000;
+    color: #1C9DC9;
+    padding: 14px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: bold;
+}
+
+.fight-or-play-part p {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #1C9DC9;
+    padding: 14px;
+    width: 100%;
+}
+
+.play-button {
+    border: 2px solid #1C9DC9;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px #000;
+    background: white;
+    color: #1C9DC9;
+    padding: 14px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.play-game {
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.play-game-button {
+    width: 400px;
+    height: 64px;
+    text-align: center;
+    padding: 16px;
+    border-radius: 14px;
+    background: #1C9DC9;
+    box-shadow: 0px 4px 0px 0px #000;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    border: 0;
+}
+
+
+.right-side {
+    display: flex;
+    align-items: flex-start;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    max-width: 660px;
+}
+
+.first-par {
+    color: #02455C;
+    font-size: 80px;
+    font-weight: 500;
+
+}
+
+.second-par {
+    color: #08759A;
+    font-size: 80px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+
+.puppie-img {
+    width: 100%;
+}
+
+.poppies {
+    align-items: flex-start;
+    padding-top: 24px;
+}
+
+.poppies {
+    color: #1C9DC9;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.third-par {
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.slide-button {
+    display: none;
+}
+
+
+
+.show-in-mobile {
+    display: none;
+    color: #323232;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media (max-width: 1031px) {
+
+    .central-div {
+        padding: 15px;
+        justify-content: center;
+
+        height: 1000px;
+    }
+
+    .left-side {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .first-par {
+        color: #02455C;
+        font-size: 50px;
+        font-weight: 500;
+    
+    }
+    
+    .second-par {
+        color: #08759A;
+        font-size: 44px;
+        font-weight: 700;
+        padding-bottom: 0;
+    }
+
+    .left-side-text {
+        align-items: center;
+        padding: 0;
+        gap: 0;
+    }
+
+    .right-side-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    /*           ---------------------------------         */
+
+    .right-side,
+    .velit {
+        display: none;
+    }
+
+
+    /* .hide-in-slide {
+        display: none;
+    } */
+
+    /* .left-side-and-play-button {
+        display: none;
+    } */
+
+    .third-par {
+        color: black;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .show-in-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .slide-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .hide {
+        display: none;
+    }
+    
+
+}
+
+@media (max-width: 640px) {
+
+    .central-div {
+        height: 800px;
+
+    }
+
+
+
+    .play-game {
+        padding-top: 35px;
+    }
+    
+    .hide {
+        display: none;
+    }
+
+    .know,
+    .fun {
+        font-size: 30px;
+    }
+
+    .fight-play {
+        width: 330px;
+    }
+
+    .pow1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .pow2,
+    .pow3 {
+        width: 34px;
+        height: 34px;
+    }
+
+    .oval {
+        height: 65px;
+        width: 65px;
+    }
+
+    .fight-or-play-part {
+        width: 265px;
+    }
+
+    .fight-button,
+    .play-button {
+        padding: 8px;
+        font-size: 20px
+    }
+
+    .play-game-button {
+        width: 275px;
+        height: 50px;
+        padding: 8px;
+        font-size: 15px;
+    }
+}

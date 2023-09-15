@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+
+    background-color: white;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 144px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+
+.header-a {
+    max-width: 272px;
+    height: 80px;
+    flex-shrink: 0;
+    color: #1C9DC9;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.header-components {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+
+.topics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    white-space: nowrap;
+
+}
+
+/* .game-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.game {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color: #1C9DC9;
+
+}
+
+/* .header-scrapbook {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+} */
+
+.scrap-book {
+    display: flex;
+    align-items: center;
+    max-width: 64px;
+}
+
+
+.text-your {
+    display: block;
+    width: 100%;
+}
+
+.scrap-book-text {
+    color: #1C9DC9;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    gap: 10px;
+}
+
+.progress-bar {
+    max-width: 124px;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+.progress-bar img {
+    width: 100%;
+}
+
+.progress-persentage {
+    color: #1C9DC9;
+    text-align: right;
+}
+
+.progress-persentage .slash-hundred {
+    color: #B7E9FA;
+}
+
+.topic a {
+    font-size: 20px;
+    text-align: center;
+    color: #1C9DC9;
+    font-weight: 700;
+}
+
+
+.login-signup {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.log-in a {
+    color: #1C9DC9;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sign-up {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.sign-up-button {
+    border: none;
+    border-radius: 10px;
+    background: #1C9DC9;
+    box-shadow: 0px 3px 0px 0px #000;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 15px 25px;
+    max-width: 150px;
+}
+
+
+.burger-block {
+    display: block;
+
+}
+
+.burger-icon {
+    display: block;
+    height: 3px;
+    min-width: 50px;
+    width: 100%;
+    background: #1C9DC9;
+    margin-bottom: 15px;
+}
+
+.last-line-of-burger {
+    margin-bottom: 0;
+}
+
+
+
+
+
+@media (max-width: 1031px) {
+
+    .game,
+    .topic,
+    .log-in {
+        display: none;
+    }
+
+    header {
+        height: 100px;
+        padding-top: 10px;
+        /* padding-bottom: 50px; */
+    }
+
+    .header-logo {
+        width: 200px;
+    }
+
+    .header-img {
+        width: 200px;
+        padding-left: 0;
+    }
+
+    .header-scrapbook {
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .header-components {
+        gap: 20px;
+    }
+
+    .progress-bar img {
+        width: 75%;
+    }
+
+    .progress-persentage {
+        font-size: 10px;
+    }
+
+
+    
+    
+}
+
+@media (max-width: 640px) {
+
+    header {
+        padding-top: 23px;
+    }
+
+
+    .header-logo {
+        width: 100px;
+        padding-left: 0;
+    }
+
+    .header-img {
+        width: 100px;
+
+    }
+
+
+    .scrap-book img {
+        width: 32px;
+        height: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .scrap-book {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .burger-block {
+        width: 32px;
+        height: 32px;
+    }
+
+    .topics {
+        gap: 0;
+    }
+
+    .header-components {
+        gap: 15px;
+    }
+
+    .progress-bar img {
+        width: 50%;
+    }
+
+    .progress-persentage {
+        font-size: 8px;
+    }
+
+    .sign-up {
+        width: 64px;
+    }
+
+    .sign-up-button {
+        padding: 8px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    /* .burger-block {
+        width: 32px;
+        height: 32px;
+    } */
+    
+    .burger-icon {
+        min-width: 35px;
+        margin-bottom: 12px;
+    }
+
+}

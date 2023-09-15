@@ -1,0 +1,455 @@
+.todays-topic-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 75px;
+}
+
+.todays-topic-head h2 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    color: #08759A;
+}
+
+
+.todays-topic-main-section {
+
+    flex-wrap: wrap;
+
+    padding: 50px;
+}
+
+.main-section-main-part {
+    display: flex;
+
+    gap: 80px;
+}
+
+.todays-topic-left-side {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.little-girl-playing-with-puppy {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 880px;
+}
+
+.little-girl-playing-with-puppy img {
+    width: 100%;
+}
+
+.poppies {
+    color: #1C9DC9;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.poppies-mobile {
+    display: none;
+}
+
+.dog-safe-around-kids {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.essecillum {
+    color: #323232;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.latest {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.latest-text {
+    display: flex;
+    padding-bottom: 40px;
+    /*    */
+
+}
+
+.latest-text p {
+    color: #08759A;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.dog-part {
+    display: flex;
+
+    gap: 25px;
+}
+
+.puppy-zone {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 410px;
+}
+
+
+.puppy-zone-problems {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.family-dog {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 410px;
+
+}
+
+
+.training-tips {
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.todays-topic-right-side {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+.trending {
+    color: #08759A;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.dates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    ;
+}
+
+.puppys {
+    color: #1C9DC9;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.time {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-text {
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.divider {
+    border-bottom: 1px solid black;
+    padding-top: 24px;
+}
+
+.see-all-topics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.see-all-topics-button {
+    background-color: #1C9DC9;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px #000;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sock-stealer-part {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lola-part {
+    background: #94DFF8;
+
+}
+
+.lola-pic {
+    max-width: 350px;
+}
+
+
+.lola-pic img {
+    width: 100%;
+}
+
+.lola-text {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.lola {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sock {
+    color: #02455C;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.pacifica {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.lola-sock-stealer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.show-off-your-dog {
+    padding: 80px 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-dog {
+    color: #08759A;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.proident {
+    color: #323232;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.submit-dog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.submit-dog-button {
+    padding: 15px;
+    border-radius: 10px;
+    background: #1C9DC9;
+    box-shadow: 0px 3px 0px 0px #000;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+}
+
+
+
+.next-icon-img {
+    display: none;
+}
+
+.prev-icon-img {
+    display: none;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .hide-in-mobile {
+        display: none;
+    }
+
+    .main-section-main-part,
+    .dog-part {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .todays-topic-head {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .todays-topic-head h2 {
+        font-size: 48px;
+
+    }
+
+    .main-text {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .essecillum {
+        font-size: 14px;
+    }
+
+
+    .poppies {
+        font-size: 16px;
+
+        font-weight: 700;
+    }
+
+    .poppies-desc {
+        display: none;
+    }
+
+    .poppies-mobile {
+        display: flex;
+        text-align: left;
+    }
+
+    .todays-topic-main-section {
+        padding-left: 30px;
+
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .show-off-your-dog {
+        display: flex;
+        text-align: center;
+        padding: 40px 100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .todays-topic-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .todays-topic-logo img {
+        position: absolute;
+        top: -175px;
+    }
+
+    .show-dog {
+        font-size: 47px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 700px) {
+
+
+    .lola-hide-in-mobile {
+        display: none;
+    }
+
+    .next-icon {
+        display: block;
+        position: relative;
+
+    } 
+
+    .sock-stealer-part {
+        position: relative;
+    }
+
+
+    .next-icon-img {
+        display: block;
+        position: absolute;
+        top: 35%;
+        right: 5%;
+    }
+
+    .prev-icon-img {
+        display: block;
+        position: absolute;
+        top: 35%;
+        left: 5%;
+    }
+}
+
+@media (max-width: 640px) {
+    .little-girl-playing-with-puppy img {
+        width: 312px;
+    }
+
+    .dog-pic img {
+        width: 312px;
+
+    }
+
+    .show-dog {
+        font-size: 27px;
+    }
+
+    .proident {
+        font-size: 10px;
+    }
+
+    .submit-dog-button {
+        padding: 11px 15px;
+        font-size: 13px;
+    }
+
+    .show-mobile {
+        display: flex;
+    }
+
+    .show-desc {
+        display: none;
+    }
+
+    .lola-hide-in-mobile {
+        display: none;
+    }
+}
