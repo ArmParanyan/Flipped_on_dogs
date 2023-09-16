@@ -6,9 +6,12 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+
 }
 
+
 header {
+
 
     background-color: white;
 
@@ -57,12 +60,6 @@ li {
 
 }
 
-/* .game-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-} */
 
 .game {
     font-size: 20px;
@@ -73,18 +70,14 @@ li {
 
 }
 
-/* .header-scrapbook {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
 
-} */
 
 .scrap-book {
     display: flex;
     align-items: center;
     max-width: 64px;
+
+
 }
 
 
@@ -292,10 +285,7 @@ li {
         font-weight: 700;
     }
 
-    /* .burger-block {
-        width: 32px;
-        height: 32px;
-    } */
+
     
     .burger-icon {
         min-width: 35px;

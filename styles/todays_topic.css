@@ -77,7 +77,7 @@
 .latest-text {
     display: flex;
     padding-bottom: 40px;
-    /*    */
+
 
 }
 
@@ -143,7 +143,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-items: center; */
+
     gap: 24px;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -373,7 +373,7 @@
         justify-content: center;
         position: relative;
     }
-    
+
     .todays-topic-logo img {
         position: absolute;
         top: -175px;
@@ -396,7 +396,7 @@
         display: block;
         position: relative;
 
-    } 
+    }
 
     .sock-stealer-part {
         position: relative;
@@ -416,6 +416,30 @@
         top: 35%;
         left: 5%;
     }
+
+
+    .lola-part {
+        position: relative;
+        animation: 1s slide ease-in-out;
+
+    }
+
+    @keyframes slide {
+        0% {
+            left: 0;
+        }
+
+        50% {
+            left: 5%;
+        }
+
+        100% {
+            left: 0;
+        }
+    }
+
+   
+
 }
 
 @media (max-width: 640px) {
