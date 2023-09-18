@@ -19,6 +19,7 @@
     flex-wrap: wrap;
 
     padding: 50px;
+
 }
 
 .main-section-main-part {
@@ -429,7 +430,7 @@
 
     @keyframes slide {
         0% {
-            left: 0;
+            left: 0%;
         }
 
         50% {

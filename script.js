@@ -8,20 +8,10 @@ const central_div = document.querySelector('.central-div');
 
 function open_menu() {
     menu_section.style.display = 'block';
-
-    // header.style.background = 'rgba(0, 0, 0, 0.80)';
-
-
-    // main_section.style.background = 'rgba(0, 0, 0, 0.8)';
-    // central_div.style.opacity = 0.2
-    ;
-
-    // main_section.style.zIndex = 3;
-
-    // central_div.style.background = 'rgba(0, 0, 0, 0.80)';
-
-
     body.style.overflow = 'hidden';
+    menu_section.style.overflowY = 'auto';
+    menu_section.style.height = '100%';
+
 }
 
 
@@ -31,14 +21,8 @@ hamburger.addEventListener('click', open_menu)
 function close_menu() {
     menu_section.style.display = 'none'
 
-
-    // header.style.background = 'white';
-    // main_section.style.background = '#EAF7FC';
-
-    // central_div.style.background = 'white';
-
-
     body.style.overflow = 'auto';
+
 }
 
 
