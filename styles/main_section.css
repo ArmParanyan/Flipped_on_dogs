@@ -7,7 +7,6 @@
     display: flex;
     align-items: flex-start;
     gap: 80px;
-    flex-shrink: 0;
     padding: 64px 100px;
 }
 
@@ -17,6 +16,7 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 24px;
+    margin-bottom: 56px;
 }
 
 
@@ -170,7 +170,7 @@
 }
 
 .play-game {
-    padding-top: 56px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -336,6 +336,10 @@
 }
 
 @media (max-width: 640px) {
+
+    .left-side {
+        margin-bottom: 20px;
+    }
 
     .central-div {
         height: 800px;

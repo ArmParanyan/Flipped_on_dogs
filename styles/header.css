@@ -17,11 +17,13 @@ header {
 
     padding-top: 32px;
     padding-bottom: 32px;
-    height: 144px;
+    /* height: 144px; */
 }
 
 header a {
+    display: block;
     text-decoration: none;
+
 }
 
 
