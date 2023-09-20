@@ -1,8 +1,15 @@
-.footer-container {
+.footer-part {
     background: #1C9DC9;
+
+}
+
+.footer-container {
     padding: 50px;
     display: flex;
     gap: 50px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .footer-container a {
@@ -32,11 +39,23 @@
     gap: 25px;
 }
 
+.footer-middle-content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px
+}
+
 .footer-titles {
     color: black;
     font-size: 24px;
     font-weight: 700;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
+}
+
+.footer-game {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .links {
@@ -47,7 +66,7 @@
     color: white;
     font-size: 18px;
     font-weight: 500;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .link-text-mobile {
@@ -56,7 +75,9 @@
 
 .footer-sign-up-miss-out {
     display: flex;
-    gap: 10px
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
 }
 
 .fot-sign-up {

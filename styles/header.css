@@ -29,14 +29,28 @@ header a {
 
 
 .header-a {
+    display: block;
     max-width: 272px;
-    height: 80px;
     flex-shrink: 0;
     color: #1C9DC9;
 }
 
 .header-img {
     width: 100%;
+}
+
+.nav-bar {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.topics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
+
 }
 
 .header-components {
@@ -53,14 +67,7 @@ li {
 }
 
 
-.topics {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    white-space: nowrap;
 
-}
 
 
 .game {

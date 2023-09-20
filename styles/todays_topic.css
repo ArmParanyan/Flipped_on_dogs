@@ -20,6 +20,10 @@
 
     padding: 50px;
 
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+
 }
 
 .main-section-main-part {
@@ -40,7 +44,13 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 24px;
-    max-width: 880px;
+    /* max-width: 880px; */
+}
+
+.little-girl-playing-with-puppy-img {
+    max-width: 840px;
+    min-width: 360px;
+    
 }
 
 .little-girl-playing-with-puppy img {
@@ -190,6 +200,8 @@
     font-size: 20px;
     font-weight: 700;
     text-align: center;
+    width: 100%;
+    max-width: 240px;
 }
 
 .sock-stealer-part {
@@ -275,6 +287,8 @@
     justify-content: center;
     align-items: center;
     padding-top: 25px;
+    width: 100%;
+    max-width: 240px;
 }
 
 .submit-dog-button {
@@ -286,9 +300,13 @@
     font-size: 20px;
     font-weight: 700;
     border: 0;
+    width: 100%;
+
 }
 
-
+.show-mobile {
+    display: none;
+}
 
 .next-icon-img {
     display: none;

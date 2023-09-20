@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     background: #B7E9FA;
-    padding-top: 64px 100px; 
+
 }
 
 .features {
@@ -16,23 +16,28 @@
     flex-direction: row;
     gap: 24px;
     flex-wrap: wrap;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 64px 0;
+    width: 100%;
 }
 
 .features-icons {
+    display: flex;
     text-align: center;
     align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
+    max-width: 451px;
+    height: 292px;
+    gap: 24px;
+}
+
+.features-icons-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 
-
-.features-icons img {
-    padding-bottom: 24px;
-
-}
 
 .first-paragraph {
     color: #1C9DC9;
