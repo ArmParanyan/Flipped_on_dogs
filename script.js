@@ -15,7 +15,7 @@ function open_menu() {
     menu_section.style.height = '100%';
 
     wrapper.style.display = 'block';  
-    wrapper.style.position = 'absolute';
+    wrapper.style.position = 'fixed';
 
 
 }

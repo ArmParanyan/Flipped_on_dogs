@@ -47,10 +47,10 @@ header a {
 
 .topics {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     white-space: nowrap;
-
+    padding: 0 10px;
 }
 
 .header-components {
@@ -60,15 +60,9 @@ header a {
     gap: 70px;
 }
 
-
-
 li {
     list-style: none;
 }
-
-
-
-
 
 .game {
     font-size: 20px;
@@ -79,8 +73,6 @@ li {
 
 }
 
-
-
 .scrap-book {
     display: flex;
     align-items: center;
@@ -88,7 +80,6 @@ li {
 
 
 }
-
 
 .text-your {
     display: block;
