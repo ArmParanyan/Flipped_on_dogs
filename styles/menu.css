@@ -12,10 +12,8 @@
 
 }
 
-
 #menu-section {
     animation: 0.7s slide ease-in-out;
-
 }
 
 @keyframes slide {
@@ -38,7 +36,14 @@
     height: 100%;
     top: 0;
     left: 0;
+    animation: 1s wrapper-animation ease-in-out;
+    
     background: rgba(0, 0, 0, 0.8);
+}
+
+@keyframes wrapper-animation {
+    from {background-color: rgba(0, 0, 0, 0);}
+    to {background-color: rgba(0, 0, 0, 0.8);}
 }
 
 .menu {

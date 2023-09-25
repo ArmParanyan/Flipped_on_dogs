@@ -39,11 +39,11 @@ header a {
     width: 100%;
 }
 
-.nav-bar {
+/* .nav-bar {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-}
+} */
 
 .topics {
     display: flex;
@@ -51,6 +51,10 @@ header a {
     align-items: center;
     white-space: nowrap;
     padding: 0 10px;
+
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .header-components {
@@ -61,22 +65,28 @@ header a {
 
 
 .second-header-component {
-    width: 100%;
+    /* width: 100%; */
     max-width: 467px;
     gap: 40px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .third-header-component {
-    width: 100%;
+    /* width: 100%; */
     max-width: 401px;
     gap: 40px;
-    justify-content: right;
+    /* justify-content: right; */
 }
 
 li {
     list-style: none;
 }
+
+/* .game-div {
+    width: 100%;
+    max-width: 92px;
+
+} */
 
 .game {
     font-size: 20px;
@@ -84,7 +94,11 @@ li {
     font-weight: 700;
     line-height: 28px;
     color: #1C9DC9;
+    text-align: center;
+}
 
+.header-scrapbook {
+    width: 189px;
 }
 
 .scrap-book {
@@ -99,6 +113,8 @@ li {
     display: block;
     width: 100%;
 }
+
+
 
 .scrap-book-text {
     color: #1C9DC9;
@@ -132,6 +148,11 @@ li {
 .progress-persentage .slash-hundred {
     color: #B7E9FA;
 }
+
+/* .topic {
+    width: 100%;
+    max-width: 106px;
+} */
 
 .topic a {
     font-size: 20px;
@@ -198,7 +219,8 @@ li {
 
     .game,
     .topic,
-    .log-in {
+    .log-in,
+    .game-div {
         display: none;
     }
 
@@ -206,6 +228,10 @@ li {
         height: 100px;
         padding-top: 10px;
         /* padding-bottom: 50px; */
+    }
+
+    .header-hide-in-mobile {
+        display: none;
     }
 
     .header-logo {
@@ -218,8 +244,10 @@ li {
     }
 
     .header-scrapbook {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
+        width: 150px;
     }
 
 
@@ -236,14 +264,14 @@ li {
     }
 
 
-    
-    
+
+
 }
 
 @media (max-width: 640px) {
 
     header {
-        padding-top: 23px;
+        padding: 23px 10px 0 10px;
     }
 
 
@@ -276,7 +304,12 @@ li {
     }
 
     .topics {
-        gap: 0;
+
+        gap: 8px;
+    }
+
+    .header-scrapbook {
+        width: 82px;
     }
 
     .header-components {
@@ -302,7 +335,7 @@ li {
     }
 
 
-    
+
     .burger-icon {
         min-width: 35px;
         margin-bottom: 12px;

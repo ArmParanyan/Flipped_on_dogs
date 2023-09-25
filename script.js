@@ -50,7 +50,7 @@ button1.addEventListener("click", () => {
     button1.src = "./img/slide-button-1.svg";
     button2.src = "./img/slide-button2.svg"
 
-    left_side.style.display = 'block';
+    left_side.style.display = 'flex';
     right_side.style.display = 'none';
 
 })

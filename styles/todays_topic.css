@@ -49,7 +49,7 @@
 
 .little-girl-playing-with-puppy-img {
     max-width: 840px;
-    min-width: 360px;
+    /* min-width: 360px; */
     
 }
 
@@ -336,6 +336,7 @@
         align-items: center;
         justify-content: flex-start;
         flex-wrap: wrap;
+    
     }
 
 
@@ -375,11 +376,8 @@
     }
 
     .todays-topic-main-section {
-        padding-left: 30px;
+        padding: 24px;
 
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 48px;
     }
 
     .show-off-your-dog {
@@ -413,6 +411,8 @@
 @media (max-width: 700px) {
 
 
+
+
     .lola-hide-in-mobile {
         display: none;
     }
@@ -428,19 +428,26 @@
     }
 
 
+    .slide-icons {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        gap: 240px;
+    }
+ 
     .next-icon-img {
         display: block;
-        position: absolute;
+        /* position: absolute;
         top: 35%;
-        right: 5%;
+        right: 5%; */
         z-index: 3;
     }
 
     .prev-icon-img {
         display: block;
-        position: absolute;
+        /* position: absolute;
         top: 35%;
-        left: 5%;
+        left: 5%; */
         z-index: 3;
 
     }

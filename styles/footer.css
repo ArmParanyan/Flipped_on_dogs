@@ -4,18 +4,19 @@
 }
 
 .footer-part {
-    box-shadow: 0 -5px  #94DFF8, 0 -10px #B7E9FA;      
+    box-shadow: 0 -8px #94DFF8, 0 -16px #B7E9FA;
 }
 
 
 
 .footer-container {
-    padding: 50px 10px;
+    padding: 50px 20px;
     display: flex;
     gap: 50px;
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
+
 }
 
 .footer-container a {
@@ -36,13 +37,13 @@
 
 .footer-features {
     display: flex;
-    gap: 50px;
+    gap: 48px;
     justify-content: center;
 }
 
 .footer-features-part {
     display: flex;
-    gap: 25px;
+    gap: 48px;
 }
 
 .footer-middle-content {
@@ -102,6 +103,7 @@
     border: solid 1px white;
     padding: 8px;
     background-color: #1C9DC9;
+    width: 240px;
 }
 
 ::placeholder {
@@ -140,6 +142,16 @@
 
 .footer-registration-part {
     display: flex;
+}
+
+@media (max-width: 1100px) {
+    .email-field {
+        flex-direction: column;
+    }
+
+    .sumbit-email {
+        width: 240px;
+    }
 }
 
 @media (max-width: 1031px) {
@@ -182,7 +194,8 @@
         max-width: 320px;
     }
 
-    .email-input, .email {
+    .email-input,
+    .email {
         width: 100%;
     }
 
@@ -190,7 +203,8 @@
         font-size: 48px;
     }
 
-    .sumbit-email, .submit-button {
+    .sumbit-email,
+    .submit-button {
         width: 100%;
 
     }
