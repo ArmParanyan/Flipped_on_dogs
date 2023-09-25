@@ -1,17 +1,16 @@
-.color-bettwen-footer-and-todays-section {
-    background: #94DFF8;
-    height: 5px;
-    border-top: solid 2px #B7E9FA;
+.footer-part {
+    position: relative;
+    background: #1C9DC9;
 }
-
 
 .footer-part {
-    background: #1C9DC9;
-
+    box-shadow: 0 -5px  #94DFF8, 0 -10px #B7E9FA;      
 }
 
+
+
 .footer-container {
-    padding: 50px 0;
+    padding: 50px 10px;
     display: flex;
     gap: 50px;
     width: 100%;
