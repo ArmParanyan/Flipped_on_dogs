@@ -11,22 +11,16 @@ body {
 
 
 header {
-
-
     background-color: white;
-
-    padding-top: 32px;
-    padding-bottom: 32px;
-    /* height: 144px; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 144px;
 }
 
 header a {
     display: block;
     text-decoration: none;
-
 }
-
-
 
 .header-a {
     display: block;
@@ -39,19 +33,15 @@ header a {
     width: 100%;
 }
 
-/* .nav-bar {
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-} */
+.nav-bar {
+   padding: 0 10px;
+}
 
 .topics {
     display: flex;
     justify-content: space-between;
     align-items: center;
     white-space: nowrap;
-    padding: 0 10px;
-
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
@@ -59,34 +49,23 @@ header a {
 
 .header-components {
     display: flex;
-    /* justify-content: space-evenly; */
     align-items: center;
 }
 
 
 .second-header-component {
-    /* width: 100%; */
     max-width: 467px;
     gap: 40px;
-    /* justify-content: space-between; */
 }
 
 .third-header-component {
-    /* width: 100%; */
     max-width: 401px;
     gap: 40px;
-    /* justify-content: right; */
 }
 
 li {
     list-style: none;
 }
-
-/* .game-div {
-    width: 100%;
-    max-width: 92px;
-
-} */
 
 .game {
     font-size: 20px;
@@ -105,15 +84,12 @@ li {
     display: flex;
     align-items: center;
     max-width: 64px;
-
-
 }
 
 .text-your {
     display: block;
     width: 100%;
 }
-
 
 
 .scrap-book-text {
@@ -149,18 +125,12 @@ li {
     color: #B7E9FA;
 }
 
-/* .topic {
-    width: 100%;
-    max-width: 106px;
-} */
-
 .topic a {
     font-size: 20px;
     text-align: center;
     color: #1C9DC9;
     font-weight: 700;
 }
-
 
 .login-signup {
     display: flex;
@@ -192,7 +162,6 @@ li {
     max-width: 150px;
 }
 
-
 .burger-block {
     display: block;
 
@@ -213,8 +182,6 @@ li {
 
 
 
-
-
 @media (max-width: 1031px) {
 
     .game,
@@ -227,7 +194,6 @@ li {
     header {
         height: 100px;
         padding-top: 10px;
-        /* padding-bottom: 50px; */
     }
 
     .header-hide-in-mobile {
@@ -262,9 +228,6 @@ li {
     .progress-persentage {
         font-size: 10px;
     }
-
-
-
 
 }
 

@@ -91,7 +91,7 @@ function Display() {
 function prev() {
     if (index === 0) {
         index = images.length - 1;
-        // return index;
+
     } else {
         index--;
     }

@@ -8,8 +8,6 @@
     background: #B7E9FA;
     padding: 20px;
     border-radius: 20px 0 0 20px;
-    
-
 }
 
 #menu-section {
@@ -37,7 +35,6 @@
     top: 0;
     left: 0;
     animation: 1s wrapper-animation ease-in-out;
-    
     background: rgba(0, 0, 0, 0.8);
 }
 

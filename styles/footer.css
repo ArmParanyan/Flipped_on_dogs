@@ -10,7 +10,7 @@
 
 
 .footer-container {
-    padding: 50px 20px;
+    padding: 50px 10px;
     display: flex;
     gap: 50px;
     width: 100%;
@@ -73,7 +73,6 @@
     color: white;
     font-size: 18px;
     font-weight: 500;
-    /* padding-bottom: 10px; */
 }
 
 .link-text-mobile {
